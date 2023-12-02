@@ -1,7 +1,4 @@
-:root{
---text-color: #212121;
---text-second-color: #757575;
---text-third-color: #FFFFFF;
---backgroung-color: #2F303A;
---accent-color: #2196F3;
-}
+a[href^="https"] 
+{color: red;}
+ul + p 
+{font-size: 24px;}
