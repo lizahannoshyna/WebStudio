@@ -1,0 +1,36 @@
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1, 5;
+}
+
+:root {
+  --accent-color: #2196f3;
+  --background: #2f303a;
+  --text-color: #757575;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+}
+
+.header-nav-p a {
+  color: black;
+}
+.header-nav-p a:hover {
+  color: var(--accent-color);
+}
+
+.footer-portfolio {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  background-color: var(--background);
+}
+.footer-portfolio a {
+  color: #fff;
+}
+.footer-portfolio a:hover {
+  color: var(--accent-color);
+}

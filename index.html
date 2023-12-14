@@ -1,95 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
     <title>webstusio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  </head>
+  <body>
     <!--шапка-->
-    <header>
-        <p>WebStudio</p>
-        <nav>
-            <a href="http://127.0.0.1:5500/golden/index.html">Студія</a>
-            <a href="http://127.0.0.1:5500/mogo/index.html">Портфоліо</a>
-            <a href="#">Контакти</a>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+3800961111111">+380 096 111 11 11</a>
-        </nav>
+    <header class="header">
+      <img class="logo" src="img/WebStudio.png" alt="logo" />
+      <nav class="header-nav">
+        <a href="#">Студія</a>
+        <a href="portfolio.html">Портфоліо</a>
+        <a href="#">Контакти</a>
+        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="header-item" href="tel:+3800961111111">+380 096 111 11 11</a>
+      </nav>
     </header>
+
     <!--основна частина-->
     <main>
-        <!--1 секція-->
-        <section>
-            <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-            <button type="button">Замовити послугу</button>
-        </section>
-        <!--особливості-->
-        <section>
-            <div>
-                <h5>УВАГА ДО ДЕТАЛЕЙ</h5>
-            <p>Ідейні міркування,і навіть початок <br>повсякденної роботи з формування <br>позиції.</p>
-            </div>
-            <div>
-                <h5>ПУНКТУАЛЬНІСТЬ</h5>
-            <p>Завдання організації, особливо рамки <br>і місце навчання кадрів тягне у себе.</p>
-            </div>
-            <div>
-                <h5>ПЛАНУВАННЯ</h5>
-            <p>Так само консультація з широким <br>активом значною мірою зумовлює.</p>
-            </div>
-            <div>
-                <h5>СУЧАСНІ ТЕХНОЛОГІЇ</h5>
-            <p>Значимість цих проблем настільки <br>очевидна, що реалізація планових <br>завдань.</p>
-            </div>
-        </section>
-        <!--чим ми займаємось-->
-        <section>
-            <h2>Чим ми займаємось</h2>
-            <img src="img/box1.jpg" alt="IMG">
-            <br><img src="img/box2.png" alt="IMG">
-            <br><img src="img/box3.png" alt="IMG">
-        </section>
-        <!--наша команда-->
-        <section>
-            <h2>Наша команда</h2>
-            <article>
-                <img src="img/Id.jpg" alt="IMG" width="300">
-                <h6>Ігор Дем'яненко</h6>
-                <p>Product Designer</p>
-               </article>
-               <article>
-                <img src="img/or.jpg" alt="IMG" width="300">
-                <h6>Ольга Рєпіна</h6>
-                <p>Frontend Developer</p>
-               </article>
-               <article>
-                <img src="img/mt.jpg" alt="IMG" width="300">
-                <h6>Микола Тарасенко</h6>
-                <p>Marketing</p>
-               </article>
-               <article>
-                <img src="img/my.jpg" alt="IMG" width="300">
-                <h6>Михайло Єрмаков</h6>
-                <p>UI Designer</p>
-               </article> 
-        </section>
+      <!--1 секція-->
+      <section class="section-one">
+        <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+        <a href="#"></a>
+        <button class="button-section-one" type="button">
+          Замовити послугу
+        </button>
+      </section>
+      <!--особливості-->
+      <section class="section-two">
+        <div class="attention">
+          <h5>УВАГА ДО ДЕТАЛЕЙ</h5>
+          <p>
+            Ідейні міркування,і навіть початок <br />повсякденної роботи з
+            формування <br />позиції.
+          </p>
+        </div>
+        <div class="punctuality">
+          <h5>ПУНКТУАЛЬНІСТЬ</h5>
+          <p>
+            Завдання організації, особливо рамки <br />і місце навчання кадрів
+            тягне у себе.
+          </p>
+        </div>
+        <div class="plan">
+          <h5>ПЛАНУВАННЯ</h5>
+          <p>
+            Так само консультація з широким <br />активом значною мірою
+            зумовлює.
+          </p>
+        </div>
+        <div class="modern-technologies">
+          <h5>СУЧАСНІ ТЕХНОЛОГІЇ</h5>
+          <p>
+            Значимість цих проблем настільки <br />очевидна, що реалізація
+            планових <br />завдань.
+          </p>
+        </div>
+      </section>
+      <!--чим ми займаємось-->
+      <section class="section-two">
+        <h2>Чим ми займаємось</h2>
+        <img src="img/box1.jpg" alt="IMG" />
+        <br /><img src="img/box2.png" alt="IMG" /> <br /><img
+          src="img/box3.png"
+          alt="IMG"
+        />
+      </section>
+      <!--наша команда-->
+      <section class="section-three">
+        <h2>Наша команда</h2>
+        <article>
+          <img src="img/Id.jpg" alt="IMG" width="300" />
+          <h6>Ігор Дем'яненко</h6>
+          <p>Product Designer</p>
+        </article>
+        <article>
+          <img src="img/or.jpg" alt="IMG" width="300" />
+          <h6>Ольга Рєпіна</h6>
+          <p>Frontend Developer</p>
+        </article>
+        <article>
+          <img src="img/mt.jpg" alt="IMG" width="300" />
+          <h6>Микола Тарасенко</h6>
+          <p>Marketing</p>
+        </article>
+        <article>
+          <img src="img/my.jpg" alt="IMG" width="300" />
+          <h6>Михайло Єрмаков</h6>
+          <p>UI Designer</p>
+        </article>
+      </section>
     </main>
-    <footer>
-        <p>WebStudio</p>
-        <ul>
-            <li>
-                <a href="#">м. Київ, пр-т Лесі Українки, 26</a>
-            </li>
-            <li>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li>
-                <a href="tel:+3800961111111">+380 096 111 11 11</a>
-            </li>
-        </ul>
+    <footer class="footer">
+      <img src="img/WebStudiofooter.png" alt="logo" />
+      <ul>
+        <li>
+          <a href="#">м. Київ, пр-т Лесі Українки, 26</a>
+        </li>
+        <li>
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li>
+          <a href="tel:+3800961111111">+380 096 111 11 11</a>
+        </li>
+      </ul>
     </footer>
-    
-</body>
+  </body>
 </html>
