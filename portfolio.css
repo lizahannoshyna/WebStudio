@@ -1,6 +1,5 @@
 body {
   font-family: "Roboto", sans-serif;
-  line-height: 1, 5;
 }
 
 :root {
@@ -13,6 +12,7 @@ body {
   display: flex;
   align-items: center;
   text-align: justify;
+  line-height: 1,17;
 }
 
 .header-nav-p a {
@@ -20,6 +20,18 @@ body {
 }
 .header-nav-p a:hover {
   color: var(--accent-color);
+}
+
+.button-item {
+  color: #fff;
+  background-color: var(--accent-color);
+  width: 112px;
+  height: 38px;
+  line-height: 1.6;
+}
+
+.gallery-item figcaption {
+  line-height: 2;
 }
 
 .footer-portfolio {
@@ -30,6 +42,7 @@ body {
 }
 .footer-portfolio a {
   color: #fff;
+  line-height: 1.7;
 }
 .footer-portfolio a:hover {
   color: var(--accent-color);

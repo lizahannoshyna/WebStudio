@@ -6,7 +6,6 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  line-height: 1, 5;
 }
 
 .header {
@@ -21,17 +20,18 @@ body {
   color: var(--accent-color);
 }
 
-.header-item {
+.header-nav {
   font-size: 14px;
   font-weight: medium;
   text-decoration: none;
+  line-height: 1.1;
 }
 
 .section-one {
   text-align: center;
   color: #fff;
   font-size: 44px;
-  line-height: 136%;
+  line-height: 1.7;
   background-color: var(--background);
 }
 
@@ -40,41 +40,48 @@ body {
   background-color: var(--accent-color);
   width: 216px;
   height: 50px;
+  line-height: 1.8;
 }
 
 .section-two {
   font-size: 14px;
   font-weight: 400;
   color: var(--text-color);
+  line-height: 1.7;
 }
 
 section-two h5 {
   font-size: 14px;
   font-weight: 700;
   color: #000;
+  line-height: 1.1;
 }
 
 h2 {
   font-size: 36px;
   font-weight: 500;
   color: #000;
+  line-height: 1.17;
 }
 
 h6 {
   font-size: 16px;
   font-weight: 700;
   color: #000;
+  line-height: 1.17;
 }
 
 .section-three {
   font-size: 16px;
   font-weight: 400;
   color: var(--text-color);
+  line-height: 1.1;
 }
 
 .footer {
   font-size: 14px;
   font-weight: 400;
+  line-height: 1.7;
   color: #fff;
   background-color: var(--background);
 }
